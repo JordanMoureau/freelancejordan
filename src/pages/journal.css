@@ -1,0 +1,16 @@
+.journal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 60vw;
+}
+
+.journal h1 {
+  width: 50%;
+}
+
+.journal p {
+  width: 50%;
+}

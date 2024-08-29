@@ -1,0 +1,98 @@
+.contact-me-container {
+  display: flex;
+  justify-content: center;
+  margin: 90px 0px;
+  padding: 20px 50px;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  max-width: 1200px;
+}
+
+.contact-me .col {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 5%;
+  justify-content: center;
+}
+
+.col h2 {
+  background-color: black;
+  color: white;
+  width: fit-content;
+  padding: 0px 5px;
+  margin-bottom: 20px;
+}
+
+form {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input,
+textarea,
+select {
+  width: 90%;
+  padding: 10px;
+  border-radius: 0; /* Remove the 'px' for a cleaner look */
+  border: 2px solid black;
+}
+
+textarea {
+  height: 12vw;
+}
+
+/* Apply styles to input and textarea placeholders */
+input::placeholder,
+textarea::placeholder {
+  color: black; /* Set the color of the placeholder text */
+  opacity: 1; /* Ensure full opacity for better visibility */
+}
+
+button {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  padding: 5px 10px 9px 10px;
+  width: fit-content;
+  font-size: 2rem;
+  font-weight: 600;
+  border: none;
+}
+
+button:hover {
+  background-color: #ef806f;
+  cursor: pointer;
+}
+
+option {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  contact-me {
+    flex-direction: column;
+  }
+
+  .contact-me .col {
+    width: 100%;
+  }
+
+  input,
+  textarea,
+  select {
+    width: 100%;
+  }
+
+  .contact-me-container {
+    padding: 10px 20px;
+  }
+}

@@ -1,0 +1,130 @@
+header {
+  display: flex;
+  justify-content: center; /* Centers the <nav> within the <header> */
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; /* Distributes space between the children */
+  align-items: center;
+  width: 80%;
+  max-width: 900px;
+  font-weight: 900;
+  text-transform: uppercase; /* Sets the width of the nav to 80% of its parent */
+}
+
+.nav-links {
+  display: flex;
+  width: 30%; /* Adjusting to fit space around logo */
+  justify-content: space-between;
+}
+
+.logo {
+  width: 70%; /* Sets the logo container to 40% of the nav */
+  display: flex;
+  justify-content: center; /* Centers logo within the div */
+}
+
+.logo svg {
+  margin: 0px 20px;
+  width: 90%; /* Makes the image fill the container */
+  height: auto; /* Keeps the aspect ratio of the image */
+}
+
+.mobile-menu-icon {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35px;
+  height: 21px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  z-index: 1001; /* Ensure it stays on top */
+}
+
+.bar {
+  height: 4px;
+  width: 100%;
+  background-color: black;
+}
+
+.open .bar:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 7px);
+}
+
+.open .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.open .bar:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -7px);
+}
+
+.logo-open {
+  width: 80%;
+  padding-bottom: 20px;
+}
+
+.mobile-menu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  nav {
+    width: 100%;
+    align-items: start;
+  }
+  .nav-links {
+    display: none;
+  }
+
+  .logo {
+    width: auto;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+  }
+
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 10px 40px 0px 40px;
+    z-index: 1000;
+    flex-direction: column;
+  }
+
+  .mobile-menu li {
+    width: fit-content;
+    padding-top: 20px;
+  }
+
+  .mobile-menu-links {
+    display: flex;
+    width: 100%;
+    border-top: 3px solid black;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .mobile-menu a {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .mobile-menu .social-links {
+    position: fixed;
+    left: 40px;
+    bottom: 40px;
+  }
+}

@@ -1,0 +1,48 @@
+.about-me-container {
+  display: flex;
+  justify-content: center;
+  margin: 90px 0px;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1200px;
+  align-items: start;
+}
+
+.bio-image {
+  width: 50%;
+}
+
+.sig {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.sig svg {
+  width: 35%;
+}
+
+.bio {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .about-me {
+    flex-direction: column-reverse;
+  }
+  .bio {
+    width: 90%;
+    margin-bottom: 60px;
+  }
+  .bio-image {
+    width: 100%;
+  }
+}

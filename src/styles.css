@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+
+li {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+* {
+  font-family: "Niramit", sans-serif;
+  box-sizing: border-box;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+main {
+}
+
+@media screen and (max-width: 768px) {
+  .App {
+    padding: 20px 10px;
+  }
+}
