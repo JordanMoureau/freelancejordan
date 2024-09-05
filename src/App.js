@@ -9,6 +9,7 @@ import MyWork from "./pages/MyWork.js";
 import AboutMe from "./pages/AboutMe.js";
 import Contact from "./pages/Contact.js";
 import Journal from "./pages/Journal.js";
+import PortfolioDetail from "./PortfolioDetail.js";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/journal" element={<Journal />} />
+            <Route path="/portfolio/:id" element={<PortfolioDetail />} />
           </Routes>
         </main>
         <Footer />

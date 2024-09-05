@@ -1,0 +1,130 @@
+.mywork {
+  margin-top: 80px;
+  margin-bottom: 80px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mywork h1 {
+  margin-bottom: 20px;
+}
+
+.tabs-bar {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.tabs-bar button {
+  padding: 5px 15px;
+  font-size: 1.2rem;
+  color: black;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.tabs-bar button:hover {
+  background-color: black;
+  color: white;
+}
+
+.tabs-bar button.active {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+.work-body {
+  max-width: 1200px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.image-container-work {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-box-portfolio {
+  position: relative;
+  width: calc(33.33% - 20px); /* Consistent width calculation for each box */
+  height: 350px; /* Uniform height for each portfolio item */
+  overflow: hidden; /* Ensures content stays within the box */
+}
+
+.image-box-portfolio img {
+  width: 100%; /* Ensures image fills the container */
+  height: 100%; /* Ensures image fills the container */
+  object-fit: cover; /* Image covers the box without distortion */
+  transition: transform 0.3s ease;
+}
+
+.image-link {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 2px 18px 12px 19px;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  transition: background-color 0.3s ease;
+}
+
+.image-link:hover {
+  background-color: #f3816f;
+  color: white;
+}
+
+.image-box-portfolio:hover img {
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 1100px) {
+  .image-box-portfolio {
+    width: calc(50% - 20px); /* Two images per row on smaller screens */
+    height: 400px; /* Adjust height for responsive layout */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .image-box-portfolio {
+    width: calc(50% - 20px);
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .image-box-portfolio {
+    width: calc(100% - 20px); /* Full-width images on very small screens */
+    height: auto; /* Auto height for single column layout */
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .mywork h1 {
+    font-size: 1.7em;
+  }
+  .tabs-bar button {
+    font-size: 1rem;
+  }
+}

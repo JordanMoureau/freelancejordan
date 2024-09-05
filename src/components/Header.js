@@ -47,7 +47,7 @@ export default function Header() {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/journal">Journal</Link>
+            <Link to="/journal">Campaign</Link>
           </li>
         </div>
         <div
