@@ -1,4 +1,5 @@
 header {
+  padding: 30px 20px;
   display: flex;
   justify-content: center; /* Centers the <nav> within the <header> */
   width: 100%;
@@ -26,7 +27,7 @@ nav {
 } */
 
 .logo {
-  width: 70%; /* Sets the logo container to 40% of the nav */
+  width: 50%; /* Sets the logo container to 40% of the nav */
   display: flex;
   justify-content: center; /* Centers logo within the div */
 }
@@ -86,7 +87,7 @@ nav {
   }
 
   .logo {
-    width: auto;
+    width: 40%;
   }
 
   .mobile-menu-icon {

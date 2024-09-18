@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { useParams } from "react-router-dom";
 import {
   webWorkItems,
@@ -29,11 +31,27 @@ function PortfolioDetail() {
 
   return (
     <div className="portfolio-item">
-      <h1>{portfolioItem.link}</h1>
-      <p>{portfolioItem.description}</p>
-      <img src={portfolioItem.image} alt="Portfolio Detail" />
+      <div className="portfolio-item-container">
+        <div className="portfolio-item-column-detail">
+          <img src={portfolioItem.detailone} />
+          <img src={portfolioItem.detailtwo} />
+          <img src={portfolioItem.detailthree} />
+        </div>
+        <div className="portfolio-item-column-main">
+          <div className="peice-description">
+            <h1>{portfolioItem.link}</h1>
+            <h2>{portfolioItem.themes}</h2>
+            <p>{portfolioItem.description}</p>
+            <p>{portfolioItem.paratwo}</p>
+            <Link to="/mywork">
+              <button>&larr; Back to Works</button>
+            </Link>
+          </div>
+          <img src={portfolioItem.image} alt="Portfolio Detail" />
+        </div>
 
-      {/* Add more details about the portfolio item here */}
+        {/* Add more details about the portfolio item here */}
+      </div>
     </div>
   );
 }

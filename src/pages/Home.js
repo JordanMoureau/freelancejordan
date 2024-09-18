@@ -1,72 +1,68 @@
 import "./home.css";
 
-import image1 from "../media/image1.png";
-import image2 from "../media/image2.png";
-import image3 from "../media/image3.png";
-import image4 from "../media/image4.png";
-import image5 from "../media/image5.png";
+import image1 from "../images/webwork1.png";
+import image2 from "../images/illustration4.png";
+import image5 from "../images/webwork4.png";
+import image4 from "../images/illustration1.png";
+import image3 from "../images/print5.png";
+
+import hero from "../media/hero.mp4";
 
 export default function Home() {
   return (
     <div className="home-container">
+      <div className="hero-vid-container">
+        <video autoPlay muted loop className="hero-vid">
+          <source src={hero} type="video/mp4" />
+        </video>
+      </div>
       <div className="home-header">
-        <h1>Lets Make the Web Prettier.</h1>
+        <h1>Lets Make the World Prettier.</h1>
         <h2>
           Hi, I'm Jordan, a designer, illustrator and web developer out of
-          Liberty Lake, Washington.
+          Washington state. I like to scale businesses with brand strategies,
+          marketing and websites designed for traffic.
         </h2>
       </div>
 
       <div className="portfolio-boxes-home">
         <div className="image-container">
           <div className="col-one">
-            <img
-              src={image1}
-              alt="work of a freelance designer and webdeveloper in washington state"
-            />
-            <img
-              src={image3}
-              alt="work of a freelance designer and webdeveloper in washington state"
-            />
-            <img
-              src={image4}
-              alt="work of a freelance designer and webdeveloper in washington state"
-            />
+            <div className="image-box">
+              <img
+                src={image1}
+                alt="work of a freelance designer and webdeveloper in washington state"
+              />
+            </div>
+            <div className="image-box">
+              <img
+                src={image3}
+                alt="work of a freelance designer and webdeveloper in washington state"
+              />
+            </div>
+            <div className="image-box">
+              <img
+                src={image4}
+                alt="work of a freelance designer and webdeveloper in washington state"
+              />
+            </div>
           </div>
           <div className="col">
-            <img
-              src={image2}
-              alt="work of a freelance designer and webdeveloper in washington state"
-            />
-            <img
-              src={image5}
-              alt="work of a freelance designer and webdeveloper in washington state"
-            />
+            <div className="image-box">
+              <img
+                src={image2}
+                alt="work of a freelance designer and webdeveloper in washington state"
+              />
+            </div>
+            <div className="image-box">
+              <img
+                src={image5}
+                alt="work of a freelance designer and webdeveloper in washington state"
+              />
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
-
-// function HomeHashes() {
-//   const hashtags = [
-//     "#WebDesign",
-//     "#Development",
-//     "#ReactJS",
-//     "#FreelanceLife",
-//     "#DigitalMarketing",
-//     "#SEO",
-//     "#Creative",
-//     "#UXDesign",
-//     "#JavaScript",
-//     "#Tech",
-//   ];
-//   return (
-//     <>
-//       {hashtags.map((hashtag, index) => (
-//         <div className="hashes">{hashtag}</div>
-//       ))}
-//     </>
-//   );
-// }
