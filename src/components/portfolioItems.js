@@ -16,6 +16,10 @@ import webwork11 from "../images/webwork1.1.png";
 import webwork12 from "../images/webwork1.2.png";
 // import webwork13 from "../images/webwork1.4.png";
 
+import webwork31 from "../images/webwork3.1.png";
+import webwork32 from "../images/webwork3.2.png";
+import webwork33 from "../images/webwork3.3.png";
+
 import webwork41 from "../images/webwork4.1.png";
 import webwork42 from "../images/webwork4.2.png";
 import webwork43 from "../images/webwork4.4.png";
@@ -105,9 +109,9 @@ export const webWorkItems = [
       "We created a portfolio-driven website for Digital Horizons, featuring clean layouts and custom photography. The site showcases their projects and creative solutions in a visually striking way.",
     paratwo:
       "Responsive design was key, ensuring the portfolio displayed beautifully across all platforms, providing a flawless user experience.",
-    detailone: webwork2,
-    detailtwo: webwork2,
-    detailthree: webwork2,
+    detailone: webwork31,
+    detailtwo: webwork32,
+    detailthree: webwork33,
   },
   // {
   //   image: webwork6,
