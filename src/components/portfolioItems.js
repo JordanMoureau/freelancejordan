@@ -12,6 +12,14 @@ import branding4 from "../images/branding4.jpg";
 import branding5 from "../images/branding5.jpg";
 import branding6 from "../images/branding6.jpg";
 
+import webwork11 from "../images/webwork1.1.png";
+import webwork12 from "../images/webwork1.2.png";
+// import webwork13 from "../images/webwork1.4.png";
+
+import webwork41 from "../images/webwork4.1.png";
+import webwork42 from "../images/webwork4.2.png";
+import webwork43 from "../images/webwork4.4.png";
+
 import illustration1 from "../images/illustration1.png";
 import illustration2 from "../images/illustration2.png";
 import illustration3 from "../images/illustration3.png";
@@ -85,9 +93,9 @@ export const webWorkItems = [
       "A sleek and modern website for a cutting-edge tech company. The design reflects their innovative solutions, focusing on simplicity and functionality to communicate their offerings effectively.",
     paratwo:
       "We also optimized the website for search engines, enhancing their digital presence and increasing visibility in a competitive tech landscape.",
-    detailone: webwork4,
-    detailtwo: webwork4,
-    detailthree: webwork4,
+    detailone: webwork42,
+    detailtwo: webwork41,
+    detailthree: webwork43,
   },
   {
     image: webwork2,
