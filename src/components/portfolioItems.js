@@ -1,5 +1,5 @@
 import webwork1 from "../images/webwork1.png";
-import webwork2 from "../images/webwork2.jpg";
+import webwork2 from "../images/webwork2.png";
 import webwork3 from "../images/webwork3.jpg";
 import webwork4 from "../images/webwork4.png";
 import webwork5 from "../images/webwork5.jpg";
@@ -89,18 +89,18 @@ export const webWorkItems = [
     detailtwo: webwork4,
     detailthree: webwork4,
   },
-  // {
-  //   image: webwork5,
-  //   link: "Digital Horizons",
-  //   themes: "Website Design, Development, Photography",
-  //   description:
-  //     "We created a portfolio-driven website for Digital Horizons, featuring clean layouts and custom photography. The site showcases their projects and creative solutions in a visually striking way.",
-  //   paratwo:
-  //     "Responsive design was key, ensuring the portfolio displayed beautifully across all platforms, providing a flawless user experience.",
-  //   detailone: webwork5,
-  //   detailtwo: webwork5,
-  //   detailthree: webwork5,
-  // },
+  {
+    image: webwork2,
+    link: "HeyDay Boards",
+    themes: "Website Design, Development, Photography",
+    description:
+      "We created a portfolio-driven website for Digital Horizons, featuring clean layouts and custom photography. The site showcases their projects and creative solutions in a visually striking way.",
+    paratwo:
+      "Responsive design was key, ensuring the portfolio displayed beautifully across all platforms, providing a flawless user experience.",
+    detailone: webwork2,
+    detailtwo: webwork2,
+    detailthree: webwork2,
+  },
   // {
   //   image: webwork6,
   //   link: "Blue Sky Consulting",
@@ -316,4 +316,5 @@ export const allItems = [
   illustrationItems[1],
   printMediaItems[0],
   illustrationItems[4],
+  webWorkItems[2],
 ];
