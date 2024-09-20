@@ -12,18 +12,6 @@ import branding4 from "../images/branding4.jpg";
 import branding5 from "../images/branding5.jpg";
 import branding6 from "../images/branding6.jpg";
 
-import webwork11 from "../images/webwork1.1.png";
-import webwork12 from "../images/webwork1.2.png";
-// import webwork13 from "../images/webwork1.4.png";
-
-import webwork31 from "../images/webwork3.1.png";
-import webwork32 from "../images/webwork3.2.png";
-import webwork33 from "../images/webwork3.3.png";
-
-import webwork41 from "../images/webwork4.1.png";
-import webwork42 from "../images/webwork4.2.png";
-import webwork43 from "../images/webwork4.4.png";
-
 import illustration1 from "../images/illustration1.png";
 import illustration2 from "../images/illustration2.png";
 import illustration3 from "../images/illustration3.png";
@@ -37,42 +25,6 @@ import print3 from "../images/print3.jpg";
 import print4 from "../images/print4.jpg";
 import print5 from "../images/print5.png";
 import print6 from "../images/print6.jpg";
-
-import print51 from "../images/print5.1.png";
-import print52 from "../images/print5.2.png";
-import print53 from "../images/print5.3.png";
-
-import illustration21 from "../images/illustration2.1.png";
-import illustration22 from "../images/illustration2.2.png";
-import illustration23 from "../images/illustration2.3.png";
-
-import illustration41 from "../images/illustration4.1.png";
-import illustration42 from "../images/illustration4.3.png";
-import illustration43 from "../images/illustration4.2.png";
-
-import illustration11 from "../images/illustration1.1.png";
-import illustration12 from "../images/illustration1.3.png";
-import illustration13 from "../images/illustration1.2.png";
-
-import illustration51 from "../images/illustration5.1.png";
-import illustration52 from "../images/illustration5.2.png";
-import illustration53 from "../images/illustration5.3.png";
-
-import illustration31 from "../images/illustration3.1.png";
-import illustration32 from "../images/illustration3.2.png";
-import illustration33 from "../images/illustration3.3.png";
-
-import illustration71 from "../images/illustration7.3.png";
-import illustration72 from "../images/illustration7.2.png";
-import illustration73 from "../images/illustration7.1.png";
-
-import print61 from "../images/print6.3.png";
-import print62 from "../images/print6.2.png";
-import print63 from "../images/print6.1.png";
-
-import branding31 from "../images/branding3.3.png";
-import branding32 from "../images/branding3.2.png";
-import branding33 from "../images/branding3.1.png";
 
 // Export an array of portfolio items for each category
 export const webWorkItems = [
@@ -94,9 +46,6 @@ export const webWorkItems = [
       "A sleek and modern website for a cutting-edge tech company. The design reflects their innovative solutions, focusing on simplicity and functionality to communicate their offerings effectively.",
     paratwo:
       "We also optimized the website for search engines, enhancing their digital presence and increasing visibility in a competitive tech landscape.",
-    detailone: webwork42,
-    detailtwo: webwork41,
-    detailthree: webwork43,
   },
   {
     image: webwork2,
@@ -106,9 +55,6 @@ export const webWorkItems = [
       "We created a portfolio-driven website for Digital Horizons, featuring clean layouts and custom photography. The site showcases their projects and creative solutions in a visually striking way.",
     paratwo:
       "Responsive design was key, ensuring the portfolio displayed beautifully across all platforms, providing a flawless user experience.",
-    detailone: webwork31,
-    detailtwo: webwork32,
-    detailthree: webwork33,
   },
   // {
   //   image: webwork6,
@@ -227,9 +173,6 @@ export const illustrationItems = [
     themes: "Vector Art, Retro Pop",
     description:
       "Don't Give Up! is a retro pop-style vector art project featuring a vibrant rainbow and cloud design. With its bold colors and playful shapes, the piece emphasizes a message of positivity and encouragement. The typography and illustration style are inspired by retro aesthetics, creating a sense of nostalgia while delivering an uplifting reminder to persevere.",
-    detailone: illustration71,
-    detailtwo: illustration72,
-    detailthree: illustration73,
   },
 ];
 
@@ -287,9 +230,6 @@ export const printMediaItems = [
     themes: "Business Cards, Branding, Print Media",
     description:
       "Designed eye-catching book covers for a series of mystery novels, focusing on creating intrigue through minimalist, mysterious visuals.",
-    detailone: print61,
-    detailtwo: print62,
-    detailthree: print63,
   },
 ];
 
