@@ -84,9 +84,6 @@ export const webWorkItems = [
       "This site was designed to reflect everything that makes New Love Coffee stand out—chill vibes, great coffee, and local pride. The clean, modern layout brings the brand's personality to life, with bold visuals and straightforward navigation that make exploring the shop or checking out their latest roasts a breeze.",
     paratwo:
       "With mobile responsiveness baked in, the design works seamlessly across all devices. Eye-catching messaging like -We Do Roast Our Own Beans- reinforces New Love’s authenticity and expertise, while interactive elements like the roast selection keep things fresh and engaging. Simple, fun, and full of good coffee vibes—just like New Love.",
-    detailone: webwork1,
-    detailtwo: webwork1,
-    detailthree: webwork1,
   },
 
   {
@@ -155,9 +152,6 @@ export const brandingItems = [
     themes: "Logo Design, Packaging, Brand System",
     description:
       "A soft, nature-inspired logo and packaging design for Natural Bloom, aligning with their organic product line. The focus was on earthy tones and elegant branding elements.",
-    detailone: branding32,
-    detailtwo: branding31,
-    detailthree: branding33,
   },
   // {
   //   image: branding4,
@@ -198,9 +192,6 @@ export const illustrationItems = [
     themes: "Character Design, Digital Illustration, Cultural Celebration",
     description:
       "This project is a character design and digital illustration inspired by the Japanese beckoning cat, a symbol of good fortune. The illustrations reimagine this traditional figure with a modern, whimsical twist and vibrant colors. The piece emphasizes cultural celebration while maintaining a playful tone, with the message 'Good Luck' featured.",
-    detailone: illustration11,
-    detailtwo: illustration12,
-    detailthree: illustration13,
   },
   {
     image: illustration2,
@@ -208,9 +199,6 @@ export const illustrationItems = [
     themes: "Concept Art, Illustration",
     description:
       "A series of futuristic concept art pieces, exploring themes of space exploration and advanced civilizations, brought to life with intricate detailing.",
-    detailone: illustration21,
-    detailtwo: illustration22,
-    detailthree: illustration23,
   },
   {
     image: illustration3,
@@ -218,9 +206,6 @@ export const illustrationItems = [
     themes: "Illustration, Social Media, Just for Fun",
     description:
       "Hey September is an illustration project created for social media, featuring playful and imaginative designs. The piece showcases a stylized 'Hey September' text with a minimalistic scene of the sun rising from a box, alongside celestial elements like the moon and stars. This project highlights a whimsical take on the changing seasons, using soft colors and clean lines to create a sense of fun and creativity..",
-    detailone: illustration31,
-    detailtwo: illustration32,
-    detailthree: illustration33,
   },
   {
     image: illustration4,
@@ -228,9 +213,6 @@ export const illustrationItems = [
     themes: "Concept Design, Illustration",
     description:
       "This illustration project was created to convey a sense of personal journey and creativity through visual storytelling. The goal was to reflect a moment of inspiration with a simple, clean design and soft color palette. The text “Make it beautiful, her heart said, so she did” ties into the visual, reinforcing the theme of following creative instincts. The project aimed to blend illustration and messaging to inspire viewers and evoke a sense of calm determination.",
-    detailone: illustration41,
-    detailtwo: illustration42,
-    detailthree: illustration43,
   },
   {
     image: illustration5,
@@ -238,9 +220,6 @@ export const illustrationItems = [
     themes: "Digital Art, Concepting, Poster",
     description:
       "Le Fleurs Christmas Market is a digital art project that features a bouquet of soft pastel flowers against a serene background, evoking a sense of wonder and tranquility. The illustration was created for a Christmas market poster, using delicate colors and clean lines to convey an ethereal and peaceful mood, ideal for a festive seasonal theme.",
-    detailone: illustration51,
-    detailtwo: illustration53,
-    detailthree: illustration52,
   },
   {
     image: illustration7,
@@ -301,10 +280,6 @@ export const printMediaItems = [
     themes: "Graphic Design, Print",
     description:
       "A Bold Buttery Brand! We crafted a playful, eye-catching menu design that highlights the fun and indulgence of The Butter Burger House. The bold typography and retro-style illustrations create a unique, memorable identity that invites customers to dive into their buttery creations. With a color palette that pops and attention to detail—like the quirky '30 B's' trivia—the design enhances the brand’s personality, making sure it’s just as enjoyable as the burgers themselves.",
-
-    detailone: print51,
-    detailtwo: print52,
-    detailthree: print53,
   },
   {
     image: print6,

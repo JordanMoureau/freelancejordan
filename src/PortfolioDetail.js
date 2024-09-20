@@ -33,9 +33,7 @@ function PortfolioDetail() {
     <div className="portfolio-item">
       <div className="portfolio-item-container">
         <div className="portfolio-item-column-detail">
-          <img src={portfolioItem.detailone} />
-          <img src={portfolioItem.detailtwo} />
-          <img src={portfolioItem.detailthree} />
+          <img src={portfolioItem.image} alt="Portfolio Detail" />
         </div>
         <div className="portfolio-item-column-main">
           <div className="peice-description">
@@ -47,11 +45,15 @@ function PortfolioDetail() {
               <button>&larr; Back to Works</button>
             </Link>
           </div>
-          <img src={portfolioItem.image} alt="Portfolio Detail" />
         </div>
 
         {/* Add more details about the portfolio item here */}
       </div>
+      {/* <div className="detail-across">
+        <img src={portfolioItem.detailone} />
+        <img src={portfolioItem.detailtwo} />
+        <img src={portfolioItem.detailthree} />
+      </div> */}
     </div>
   );
 }

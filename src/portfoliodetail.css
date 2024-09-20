@@ -27,7 +27,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 38%;
+  width: 77%;
   gap: 30px;
 }
 
@@ -36,7 +36,21 @@
   flex-direction: column;
   align-items: start;
   justify-content: baseline;
-  width: 58%;
+  width: 67%;
+}
+
+.detail-across {
+  max-width: 1200px;
+  justify-content: start;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 30px;
+}
+
+.detail-across img {
+  width: 28%;
 }
 
 .peice-description {
@@ -63,4 +77,10 @@
 .peice-description button {
   font-size: 1.2rem;
   margin-bottom: 60px;
+}
+
+@media screen and (max-width: 760px) {
+  .portfolio-item-container {
+    flex-direction: column-reverse;
+  }
 }
