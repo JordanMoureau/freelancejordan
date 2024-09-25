@@ -83,4 +83,10 @@
   .portfolio-item-container {
     flex-direction: column-reverse;
   }
+  .portfolio-item-column-main {
+    width: 100%;
+  }
+  .portfolio-item-column-detail {
+    width: 100%;
+  }
 }

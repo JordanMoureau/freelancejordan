@@ -43,10 +43,7 @@ select {
   padding: 10px;
   border-radius: 0; /* Remove the 'px' for a cleaner look */
   border: 2px solid black;
-}
-
-textarea {
-  height: 12vw;
+  color: inherit;
 }
 
 /* Apply styles to input and textarea placeholders */

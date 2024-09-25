@@ -47,7 +47,7 @@ export default function Header() {
             <Link to="/contact">Contact</Link>
           </li>
           <li>
-            <Link to="/journal">Campaign</Link>
+            <Link to="/Campaign">Campaign</Link>
           </li>
         </div>
         <div
@@ -87,8 +87,8 @@ export default function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/journal" onClick={toggleMenu}>
-              Journal
+            <Link to="/campaign" onClick={toggleMenu}>
+              Campaign
             </Link>
           </li>
         </div>

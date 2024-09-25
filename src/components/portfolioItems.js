@@ -1,16 +1,9 @@
 import webwork1 from "../images/webwork1.png";
 import webwork2 from "../images/webwork2.png";
-import webwork3 from "../images/webwork3.jpg";
 import webwork4 from "../images/webwork4.png";
-import webwork5 from "../images/webwork5.jpg";
-import webwork6 from "../images/webwork6.jpg";
 
-import branding1 from "../images/branding1.jpg";
-import branding2 from "../images/branding2.jpg";
+import branding2 from "../images/branding2.png";
 import branding3 from "../images/branding3.png";
-import branding4 from "../images/branding4.jpg";
-import branding5 from "../images/branding5.jpg";
-import branding6 from "../images/branding6.jpg";
 
 import illustration1 from "../images/illustration1.png";
 import illustration2 from "../images/illustration2.png";
@@ -19,10 +12,6 @@ import illustration4 from "../images/illustration4.png";
 import illustration5 from "../images/illustration5.png";
 import illustration7 from "../images/illustration7.png";
 
-import print1 from "../images/print1.jpg";
-import print2 from "../images/print2.jpg";
-import print3 from "../images/print3.jpg";
-import print4 from "../images/print4.jpg";
 import print5 from "../images/print5.png";
 import print6 from "../images/print6.jpg";
 
@@ -82,22 +71,21 @@ export const brandingItems = [
   //   detailtwo: branding1,
   //   detailthree: branding1,
   // },
-  // {
-  //   image: branding2,
-  //   link: "Element Fitness",
-  //   themes: "Brand Strategy, Visual Identity",
-  //   description:
-  //     "For Element Fitness, we crafted a modern and energetic brand, focusing on clean lines and bold, dynamic visuals to reflect their strength and innovation in the fitness space.",
-  //   detailone: branding2,
-  //   detailtwo: branding2,
-  //   detailthree: branding2,
-  // },
+  {
+    image: branding2,
+    link: "Faolan Forest Apothecary",
+    themes: "Brand Strategy, Visual Identity, Illustration",
+    description:
+      "Faolan Forest Apothecary draws its inspiration from the rhythms of nature, blending organic elements with mystical undertones. The branding reflects the deep-rooted connection to the earth and the healing properties found in the Appalachian landscape. ",
+    paratwo:
+      "With clean, illustrative botanicals and a warm, earthy palette, we crafted a visual identity that feels both timeless and grounded. The circular logomarks tie in the celestial concept of working with the sun and moon, while the overall design maintains a minimalist yet thoughtful approach to apothecary aesthetics.",
+  },
   {
     image: branding3,
     link: "Moonling Supply Co",
     themes: "Logo Design, Packaging, Brand System",
     description:
-      "A soft, nature-inspired logo and packaging design for Natural Bloom, aligning with their organic product line. The focus was on earthy tones and elegant branding elements.",
+      "For Moonling Supply Co, we created a celestial-inspired logo and packaging system that perfectly aligns with the organic essence of the brand. The visual identity plays with lunar phases and clean, geometric shapes to reflect the connection to nature and the cycles of the moon. Earthy tones and minimalist illustrations helped build a serene, yet elegant aesthetic, emphasizing the brand’s commitment to sustainability and natural beauty. This design brings a sense of calm while keeping the modern consumer in mind.",
   },
   // {
   //   image: branding4,

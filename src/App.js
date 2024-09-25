@@ -8,7 +8,7 @@ import Home from "./pages/Home.js";
 import MyWork from "./pages/MyWork.js";
 import AboutMe from "./pages/AboutMe.js";
 import Contact from "./pages/Contact.js";
-import Journal from "./pages/Journal.js";
+import Campaign from "./pages/Campaign.js";
 import PortfolioDetail from "./PortfolioDetail.js";
 
 function App() {
@@ -22,7 +22,7 @@ function App() {
             <Route path="/mywork" element={<MyWork />} />
             <Route path="/aboutme" element={<AboutMe />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/journal" element={<Journal />} />
+            <Route path="/campaign" element={<Campaign />} />
             <Route path="/portfolio/:id" element={<PortfolioDetail />} />
           </Routes>
         </main>

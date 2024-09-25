@@ -1,6 +1,6 @@
-import "./journal.css";
+import "./campaign.css";
 
-export default function Journal() {
+export default function Campaign() {
   return (
     <div className="journal">
       <h1>This is embarassing...</h1>
