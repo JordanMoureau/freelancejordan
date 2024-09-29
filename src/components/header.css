@@ -103,7 +103,7 @@ nav {
     background-color: white;
     display: flex;
     padding: 10px 40px 0px 40px;
-    z-index: 1000;
+    z-index: 997;
     flex-direction: column;
   }
 
