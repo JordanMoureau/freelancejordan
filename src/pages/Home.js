@@ -33,7 +33,14 @@ export default function Home() {
   return (
     <div className="home-container">
       <div className="hero-vid-container">
-        <video autoPlay muted loop playsinline className="hero-vid">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInLine
+          className="hero-vid"
+          preload="auto"
+        >
           <source src={hero} type="video/mp4" />
         </video>
       </div>
