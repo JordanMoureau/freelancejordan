@@ -1,14 +1,138 @@
+.pop-up-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.55
+  ); /* Semi-transparent white background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* Ensure it appears on top of other content */
+}
+
 .pop-up-box {
-  border: 5px solid black;
+  overflow: scroll;
+  border: 12px solid black;
   background-color: white;
-  position: fixed;
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%; /* Adjust the width as needed */
-  max-width: 500px; /* Set a maximum width */
-  background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
-  border-radius: 10px;
-  padding: 20px;
+  position: relative;
+  width: 90%;
+  max-width: 650px; /* Centered and responsive */
+  z-index: 1000; /* Ensure it appears on top */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2); /* Add a shadow for better visibility */
+}
+
+.x {
+  color: white; /* Change to black for visibility against the background */
+  font-size: 2rem;
+  font-weight: 900;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+.pop-up-head {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+.pop-up-body {
+  padding: 6%;
+}
+
+.pop-up-body h2 {
+  font-size: 2.4rem;
+  padding: 20px 0px;
+}
+
+.pop-up-head h1 {
+  font-size: 4.4rem; /* Adjust size for better readability */
+  color: white;
+  margin: 0;
+}
+
+.pop-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 20px; /* Add spacing between the header and service bubbles */
+}
+
+.service-bubbles {
+  font-size: 1.4rem;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-weight: 900;
+}
+
+.service-bubbles:hover {
+  cursor: pointer;
+  background-color: #ef806f; /* Retained hover color */ /* Changed text color on hover for better contrast */
+}
+
+.pop-services .selected {
+  background-color: #ef806f;
+}
+
+.pop-up-form input {
+  font-size: 1.6rem;
+  font-weight: 600;
+  background-color: #fcc4be;
+}
+
+.pop-button {
+  font-size: 2.2rem;
+  padding: 5px 15px 10px 15px;
+}
+
+@media screen and (max-width: 530px) {
+  .pop-up-box {
+    width: 100%;
+    height: 100%;
+  }
+
+  .pop-up-box h1 {
+    font-size: 3rem;
+  }
+
+  .pop-up-body h2 {
+    font-size: 2rem;
+    padding: 0px 0px;
+  }
+
+  .pop-up-form input {
+    font-size: 1rem;
+  }
+  .pop-button {
+    font-size: 1.8rem;
+    padding: 5px 15px 10px 15px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .pop-up-body h2 {
+    font-size: 1.6rem;
+    padding: 0px 0px;
+  }
+
+  .service-bubbles {
+    font-size: 1.2rem;
+  }
+
+  .pop-up-form input {
+    font-size: 1rem;
+  }
+  .pop-button {
+    font-size: 1.5rem;
+    padding: 5px 15px 10px 15px;
+  }
 }

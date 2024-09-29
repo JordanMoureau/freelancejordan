@@ -123,8 +123,11 @@
 
 @media screen and (max-width: 480px) {
   .image-box-portfolio {
-    width: calc(100% - 20px); /* Full-width images on very small screens */
+    width: 100%; /* Full-width images on very small screens */
     height: auto; /* Auto height for single column layout */
+  }
+  .image-container-work {
+    padding: 0px;
   }
 }
 

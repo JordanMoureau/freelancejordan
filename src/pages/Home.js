@@ -1,4 +1,8 @@
+import { useState, useEffect } from "react";
+
 import "./home.css";
+
+import PopUp from "../components/PopUp";
 
 import image1 from "../images/webwork1.png";
 import image2 from "../images/illustration4.png";
@@ -9,6 +13,23 @@ import image3 from "../images/print5.png";
 import hero from "../media/hero.mp4";
 
 export default function Home() {
+  const [showPopUp, setShowPopUp] = useState(false);
+
+  // Function to handle scroll and trigger pop-up
+  const handleScroll = () => {
+    const scrollThreshold = window.innerHeight * 0.5; // 50% down the page
+    if (window.scrollY > scrollThreshold) {
+      setShowPopUp(true);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Cleanup event listener
+    };
+  }, []);
+
   return (
     <div className="home-container">
       <div className="hero-vid-container">
@@ -17,7 +38,7 @@ export default function Home() {
         </video>
       </div>
       <div className="home-header">
-        <h1>Lets Make the World Prettier.</h1>
+        <h1>Lets Make the Web Prettier.</h1>
         <h2>
           Hi, I'm Jordan, a designer, illustrator and web developer out of
           Washington state. I like to scale businesses with brand strategies,
@@ -63,6 +84,9 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      {/* Conditionally rendering the pop-up when the scroll threshold is met */}
+      {showPopUp && <PopUp />}
     </div>
   );
 }

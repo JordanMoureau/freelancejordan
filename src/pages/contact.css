@@ -46,6 +46,12 @@ select {
   color: inherit;
 }
 
+select {
+  -webkit-appearance: none; /* Removes the default dropdown arrow on iOS */
+  -moz-appearance: none; /* Removes default styles for Firefox */
+  appearance: none;
+}
+
 /* Apply styles to input and textarea placeholders */
 input::placeholder,
 textarea::placeholder {
