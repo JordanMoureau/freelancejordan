@@ -37,9 +37,9 @@ export default function Home() {
           autoPlay
           muted
           loop
-          playsInLine
+          playsInline
           className="hero-vid"
-          preload="auto"
+          preload="none"
         >
           <source src={hero} type="video/mp4" />
         </video>
@@ -47,9 +47,8 @@ export default function Home() {
       <div className="home-header">
         <h1>Lets Make the Web Prettier.</h1>
         <h2>
-          Hi, I'm Jordan, a designer, illustrator and web developer out of
-          Washington state. I like to scale businesses with brand strategies,
-          marketing and websites designed for traffic.
+          Hi, I'm Jordan. I like to scale businesses with brand strategies,
+          marketing and websites built for traffic.
         </h2>
       </div>
 
