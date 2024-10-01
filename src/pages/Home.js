@@ -91,6 +91,21 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="teamwork">
+        <h2>Teamwork Makes the Dream Work</h2>
+        <p>
+          When you bring me on your team, I don’t just check off boxes—I get
+          involved. I’m all about finding creative solutions that work. Give me
+          challenges. From designing a website that converts, to crafting a
+          brand that speaks to your audience, I dig into the details to make
+          sure everything aligns. Together, we’re not just building something
+          that looks good—we’re building something that works. Let’s tackle your
+          challenges and turn them into opportunities.
+        </p>
+      </div>
+
+      <div className="home-services"></div>
+
       {/* Conditionally rendering the pop-up when the scroll threshold is met */}
       {showPopUp && <PopUp />}
     </div>
