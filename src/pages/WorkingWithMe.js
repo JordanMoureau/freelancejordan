@@ -1,6 +1,6 @@
 function WorkingWithMe() {
   return (
-    <div className="journal">
+    <div className="working-with-me">
       <h1>This is embarassing...</h1>
       <p>
         But we've been working on other people's sites so much we haven't been

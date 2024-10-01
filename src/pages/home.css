@@ -144,6 +144,7 @@ p {
 
 .my-kind {
   margin-bottom: 230px;
+  padding: 0px 10px;
   max-width: 590px;
   text-align: center;
 }
