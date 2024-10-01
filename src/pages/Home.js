@@ -7,9 +7,9 @@ import "./mywork.css";
 import PopUp from "../components/PopUp";
 
 import image1 from "../images/webwork1.png";
-import image2 from "../images/illustration4.png";
-import image5 from "../images/webwork4.png";
-import image4 from "../images/illustration1.png";
+import image4 from "../images/illustration4.png";
+import image5 from "../images/webwork2.png";
+import image2 from "../images/illustration1.png";
 import image3 from "../images/print5.png";
 
 import webwork1 from "../images/webwork1.png";
