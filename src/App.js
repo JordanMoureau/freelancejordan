@@ -10,6 +10,7 @@ import AboutMe from "./pages/AboutMe.js";
 import Contact from "./pages/Contact.js";
 import Campaign from "./pages/Campaign.js";
 import PortfolioDetail from "./PortfolioDetail.js";
+import WorkingWithMe from "./pages/WorkingWithMe.js";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/campaign" element={<Campaign />} />
             <Route path="/portfolio/:id" element={<PortfolioDetail />} />
+            <Route path="/workingwithme" element={<WorkingWithMe />} />
           </Routes>
         </main>
         <Footer />

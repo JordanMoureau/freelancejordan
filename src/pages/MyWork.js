@@ -79,10 +79,3 @@ function PortfolioMap({ activeTab }) {
     </div>
   );
 }
-// return (
-//   <div className="image-container-work">
-//     {imagesToDisplay().map(function (image, index) {
-//       return <img key={index} src={image} alt={`Portfolio ${index}`} />;
-//     })}
-//   </div>
-// );
