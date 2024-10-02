@@ -58,7 +58,7 @@
 }
 
 .image-container .col-one {
-  width: 38%;
+  width: 37.7%;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -95,10 +95,6 @@ img {
 
 .teamwork h2 {
   margin-bottom: 10px;
-}
-
-.teamwork p {
-  font-weight: 100;
 }
 
 .home-services {
