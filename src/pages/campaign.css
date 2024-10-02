@@ -1,16 +1,137 @@
-.journal {
+.campaign {
   display: flex;
   flex-direction: column;
   width: 100%;
   justify-content: center;
   align-items: center;
-  height: 60vh;
 }
 
-.journal h1 {
-  width: 50%;
+.campaign h1 {
+  margin-bottom: 5px;
+  font-size: 2.3em;
 }
 
-.journal p {
-  width: 50%;
+.campaign h2 {
+  width: fit-content;
+  padding: 2px;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.campaign h3 {
+  margin: 40px 0px 15px 0px;
+}
+
+.lets-campaign {
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 120px 10px 180px 10px;
+  width: 60%;
+  text-align: center;
+}
+
+.lets-campaign svg {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.good-ad {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0px 10px 180px 10px;
+  width: 60%;
+}
+
+.plans-that {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0px 10px 180px 10px;
+  width: 60%;
+}
+
+.how-i-parent {
+  max-width: 600px;
+  width: 60%;
+}
+
+.how-i {
+  margin-bottom: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.how-i svg {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.how-i-body {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 0px 10px 180px 10px;
+  width: 60%;
+}
+
+@media (max-width: 768px) {
+  .lets-campaign,
+  .good-ad,
+  .plans-that,
+  .how-i-body,
+  .how-i-parent {
+    width: 80%;
+    max-width: none;
+  }
+
+  .campaign h1 {
+    font-size: 1.8em;
+  }
+
+  .campaign h2 {
+    font-size: 1rem;
+  }
+
+  .button-row button {
+    font-size: 1.8rem; /* Adjust button font-size for tablets */
+    padding: 8px 16px; /* Adjust button padding for better fit */
+  }
+}
+
+/* Adjust for smaller phones */
+@media (max-width: 480px) {
+  .lets-campaign,
+  .good-ad,
+  .plans-that,
+  .how-i-body,
+  .how-i-parent {
+    width: 90%;
+    max-width: none;
+  }
+
+  .campaign h1 {
+    font-size: 1.5em;
+  }
+
+  .campaign h2 {
+    font-size: 0.9rem;
+  }
+
+  .how-i {
+    margin-bottom: 40px;
+  }
+
+  .button-row button {
+    font-size: 1rem; /* Adjust button font-size for small phones */
+    padding: 6px 12px; /* Adjust button padding for smaller screens */
+  }
 }
