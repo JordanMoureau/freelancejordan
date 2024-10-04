@@ -1,7 +1,6 @@
 .portfolio-item {
-  margin-top: 80px;
-  margin-bottom: 80px;
-  width: 100%;
+  margin: 80px 10px;
+  width: 96%;
   display: flex;
   flex-direction: column;
   align-items: center;

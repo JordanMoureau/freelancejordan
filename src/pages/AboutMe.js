@@ -12,20 +12,23 @@ export default function AboutMe() {
         <div className="bio">
           <HiThere />
           <p>
-            I'm Jordan, a designer, illustrator and web developer from Liberty
-            Lake, Washington. I specialize in branding, iconography, and turning
-            designs into functional websites on WordPress, Shopify, and with
-            React.js.
+            I'm Jordan, a designer, illustrator, web developer, and marketing
+            strategist based in Liberty Lake, Washington. My work centers around
+            branding, iconography, and translating designs into fully functional
+            websites using WordPress, Shopify, and React.js.
             <br />
             <br />
-            Over the years I’ve pulled together knowledge about all kinds of
-            design and technology. I’m confident I can work on a variety of
-            projects and make them a sucess. From designing and building high
-            converting websites, to designing and creating content for digital
-            marketing campaigns that really work, to building systems to
-            communicate complex brand strategies. What kind of problems do you
-            need to solve?
+            I built my first website when I was 13, since then I attended a top
+            design school, have I taught myself five different coding languages
+            and counting. I’m self-taught in marketing, combining design and
+            strategy to approach projects from all angles. I bring a practical,
+            problem-solving approach to every project. I like simple, effective
+            strategies.
             <br />
+            <br />
+            Outside of work, I'm a mom first. My three kids are my world. When
+            I'm not moming, you’ll find me reading, writing, horseback riding,
+            or hiking with my (very large) dog. <br />
             <br />
             Lets think about space in a new way!
           </p>
