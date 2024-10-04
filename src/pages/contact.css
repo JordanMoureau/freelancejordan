@@ -17,7 +17,12 @@
   flex-direction: column;
   width: 50%;
   gap: 5%;
-  justify-content: center;
+  justify-content: start;
+  padding: 20px;
+}
+
+.two {
+  color: white;
 }
 
 .col h2 {
@@ -80,13 +85,18 @@ option {
   color: white;
 }
 
-@media screen and (max-width: 768px) {
-  contact-me {
-    flex-direction: column;
-  }
-
+@media screen and (max-width: 900px) {
   .contact-me .col {
     width: 100%;
+  }
+
+  .two {
+    height: 70vh;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
   }
 
   input,

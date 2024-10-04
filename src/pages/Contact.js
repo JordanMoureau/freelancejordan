@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import emailjs from "@emailjs/browser";
 import "./contact.css";
 
+import contactImage from "../images/contactimagebw.jpg";
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
@@ -76,10 +78,11 @@ export default function Contact() {
               required
             >
               <option value="">--Please choose an option--</option>
-              <option value="Web design">Web design</option>
-              <option value="Web development">Web development</option>
+              <option value="Web design">Website</option>
               <option value="Branding">Branding</option>
               <option value="Digital marketing">Digital marketing</option>
+              <option value="Photography">Photography</option>
+              <option value="Illustration">illustration</option>
             </select>
 
             <textarea
@@ -107,14 +110,22 @@ export default function Contact() {
             <button type="submit">SEND TO JORDAN</button>
           </form>
         </div>
-        {isSubmitted && (
-          <div className="col">
+
+        <div
+          className="col two"
+          style={{
+            backgroundImage: `url(${contactImage})`,
+            backgroundSize: "cover", // Makes sure the image covers the div
+            backgroundPosition: "center", // Centers the image
+          }}
+        >
+          {isSubmitted && (
             <h1>
               Thanks for the mail.
               <br />I can't wait to read it!
             </h1>
-          </div>
-        )}
+          )}
+        </div>
       </div>
     </div>
   );
