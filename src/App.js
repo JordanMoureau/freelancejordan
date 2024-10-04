@@ -12,9 +12,23 @@ import Campaign from "./pages/Campaign.js";
 import PortfolioDetail from "./PortfolioDetail.js";
 import WorkingWithMe from "./pages/WorkingWithMe.js";
 
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
+
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <main>
