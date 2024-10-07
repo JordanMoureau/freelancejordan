@@ -1,9 +1,11 @@
 import webwork1 from "../images/webwork1.png";
 import webwork2 from "../images/webwork2.png";
+import webwork3 from "../images/webwork3.png";
 import webwork4 from "../images/webwork4.png";
 
 import branding2 from "../images/branding2.png";
 import branding3 from "../images/branding3.png";
+import branding5 from "../images/branding5.png";
 
 import illustration1 from "../images/illustration1.png";
 import illustration2 from "../images/illustration2.png";
@@ -45,18 +47,15 @@ export const webWorkItems = [
     paratwo:
       "Responsive design was key, ensuring the portfolio displayed beautifully across all platforms, providing a flawless user experience.",
   },
-  // {
-  //   image: webwork6,
-  //   link: "Blue Sky Consulting",
-  //   themes: "Web Design, SEO Optimization",
-  //   description:
-  //     "Blue Sky Consulting's website was built to represent their expertise in the consulting space, balancing professionalism with a user-friendly design. We incorporated SEO best practices to drive more traffic to their site.",
-  //   paratwo:
-  //     "This project was focused on providing a seamless user journey, ensuring visitors easily navigate through services and resources.",
-  //   detailone: webwork6,
-  //   detailtwo: webwork6,
-  //   detailthree: webwork6,
-  // },
+  {
+    image: webwork3,
+    link: "BlueBlooms: A Flower Shop",
+    themes: "Web Design, SEO Optimization, Foot Traffic Campaign",
+    description:
+      "For BlueBlooms, the goal was create a site that captures the beauty and elegance of flowers while optimizing every aspect for real-world growth. From the clean, modern design to implementing SEO strategies that boost local visibility, this project was about turning clicks into foot traffic.",
+    paratwo:
+      "We wanted the user journey to feel seamless, whether visitors were browsing the latest bouquet options or looking for local delivery info. Everything is designed with intention—professional yet personal, sophisticated yet approachable. This site not only looks great but works hard behind the scenes to increase online engagement and in-store visits.",
+  },
 ];
 
 export const brandingItems = [
@@ -87,16 +86,13 @@ export const brandingItems = [
     description:
       "For Moonling Supply Co, we created a celestial-inspired logo and packaging system that perfectly aligns with the organic essence of the brand. The visual identity plays with lunar phases and clean, geometric shapes to reflect the connection to nature and the cycles of the moon. Earthy tones and minimalist illustrations helped build a serene, yet elegant aesthetic, emphasizing the brand’s commitment to sustainability and natural beauty. This design brings a sense of calm while keeping the modern consumer in mind.",
   },
-  // {
-  //   image: branding4,
-  //   link: "Peak Adventure",
-  //   themes: "Brand Development, Identity Design",
-  //   description:
-  //     "For Peak Adventure, we designed an adventurous, rugged brand identity that speaks to outdoor enthusiasts. The project included everything from logo design to promotional material.",
-  //   detailone: webwork3,
-  //   detailtwo: webwork3,
-  //   detailthree: webwork3,
-  // },
+  {
+    image: branding5,
+    link: "The Coffee Co",
+    themes: "Brand Development, Identity Design",
+    description:
+      "For The Coffee Co, we created a modern and rugged brand identity aimed at outdoor enthusiasts and coffee lovers. The project included logo design, branding strategy, and promotional materials, reflecting the adventurous spirit of the brand. With clean, bold typography and versatile logo applications, we developed an identity that’s both timeless and adaptable for various marketing platforms.",
+  },
   // {
   //   image: branding5,
   //   link: "Urban Apparel",
@@ -232,4 +228,7 @@ export const allItems = [
   printMediaItems[0],
   illustrationItems[4],
   webWorkItems[2],
+  brandingItems[1],
+  webWorkItems[3],
+  illustrationItems[2],
 ];
