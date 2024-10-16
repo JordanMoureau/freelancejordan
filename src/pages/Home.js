@@ -272,7 +272,7 @@ export default function Home() {
           designing a website that breaks through the noise, creating
           illustrations that bring an idea to life, or helping a brand find its
           voice through smart, effective design. <br />
-          <br /> My focus is on websites, branding, custom illustrations, and
+          <br /> Mcy focus is on websites, branding, custom illustrations, and
           digital marketing campaigns that aren’t just about looking
           good—they’re about getting results. If you need something fresh,
           creative, and with a heaping helping of strategy, let’s chat!

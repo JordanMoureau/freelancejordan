@@ -95,28 +95,28 @@ export default function Header() {
 
         <div className="social-links">
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/profile.php?id=61560853709737"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaFacebookF style={{ width: "30px", height: "30px" }} />
           </a>
           <a
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/freelancejordan/"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaInstagram style={{ width: "40px", height: "40px" }} />
           </a>
           <a
-            href="https://www.behance.net"
+            href="https://www.behance.net/jordanfromnovember"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FaBehance style={{ width: "40px", height: "40px" }} />
           </a>
           <a
-            href="https://www.github.com"
+            href="https://github.com/JordanMoureau"
             target="_blank"
             rel="noopener noreferrer"
           >
