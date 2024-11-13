@@ -1,15 +1,16 @@
 import { useState } from "react";
 import emailjs from "emailjs-com";
-
 import { motion } from "framer-motion";
-
 import "./popup.css";
 
 export default function PopUp() {
   const [selectedService, setSelectedService] = useState("");
-  const [formData, setFormData] = useState({ name: "", email: "" });
+  const [formData, setFormData] = useState({
+    name: "",
+    email: "",
+    honeypot: "",
+  }); // Add honeypot field
   const [isSent, setIsSent] = useState(false);
-
   const [isClosed, setIsClosed] = useState(false);
 
   const handleClose = () => {
@@ -42,6 +43,12 @@ export default function PopUp() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Check if the honeypot field is filled out
+    if (formData.honeypot) {
+      console.log("Bot detected!");
+      return;
+    }
+
     // Prepare email data
     const templateParams = {
       name: formData.name,
@@ -68,18 +75,18 @@ export default function PopUp() {
   return (
     <motion.div
       className="pop-up-overlay"
-      initial={{ opacity: 0 }} // Start from far left (off screen)
-      animate={{ opacity: 1 }} // Animate into view
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
     >
       <motion.div
-        initial={{ x: "-100vw", opacity: 0 }} // Start from far left (off screen)
-        animate={{ x: 0, opacity: 1 }} // Animate into view
-        exit={{ x: "-100vw", opacity: 0 }} // Slide back to the left on exit
+        initial={{ x: "-100vw", opacity: 0 }}
+        animate={{ x: 0, opacity: 1 }}
+        exit={{ x: "-100vw", opacity: 0 }}
         transition={{
           type: "spring",
-          stiffness: 120, // Controls the "springiness"
-          damping: 12, // Reduces bouncing effect
-          duration: 0.5, // Adjust timing (optional)
+          stiffness: 120,
+          damping: 12,
+          duration: 0.5,
         }}
         className="pop-up-box"
       >
@@ -119,7 +126,19 @@ export default function PopUp() {
               onChange={handleChange}
               required
             />
-            <button className="pop-button" type="submit">
+            {/* Honeypot field (invisible to users) */}
+            <input
+              type="text"
+              name="honeypot"
+              value={formData.honeypot}
+              onChange={handleChange}
+              style={{ display: "none" }}
+            />
+            <button
+              className={`pop-button ${isSent ? "button-disabled" : ""}`}
+              type="submit"
+              disabled={isSent}
+            >
               Send it!
             </button>
           </form>

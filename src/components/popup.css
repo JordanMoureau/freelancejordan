@@ -94,6 +94,12 @@
   padding: 5px 15px 10px 15px;
 }
 
+.button-disabled {
+  background-color: gray;
+  cursor: not-allowed;
+  color: white;
+}
+
 @media screen and (max-width: 530px) {
   .pop-up-box {
     width: 100%;
