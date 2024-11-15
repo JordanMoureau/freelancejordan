@@ -282,8 +282,8 @@ export default function Home() {
         </Link>
       </div>
 
-      {/* Conditionally rendering the pop-up when the scroll threshold is met */}
-      {showPopUp && <PopUp />}
+      {/* Conditionally rendering the pop-up when the scroll threshold is met
+      {showPopUp && <PopUp />} */}
     </div>
   );
 }
